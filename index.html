@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Abd ur Rahim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Abd ur Rahim</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="intro-greeting">Hello, I'm</h3>
+            <h1 class="intro-name">Abd ur Rahim</h1>
+           <p class="intro-role">A passionate <strong>Developer</strong> focused on crafting efficient, scalable, and impactful digital solutions.<br>
+             Seeking opportunities to turn innovative ideas into seamless user experiences.
+           </p>
+
+
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="image">
+            <img src="images/remo.jpg" alt="My Profile Photo">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About Me </h2>
+        <div class="row">
+            <div class="content">
+                <h3>Education & Experience</h3>
+                  <p><strong>Bachelor of Computer Science</strong>(In Progress, Expected 2026)</p>
+                  <p>During my degree, I have focused heavily on full-stack web development, particularly the <strong>MERN Stack</strong> (MongoDB, Express, React, Node.js). 
+                     I completed a <strong>Web Developer</strong> role at <strong>Seventh P</strong> (6 months), where I designed and developed responsive WordPress websites using HTML, CSS, and PHP, collaborated with design teams on interactive interfaces, and ensured mobile-friendly layouts for client projects.</p>
+
+                <a href="images/cv.jpg" class="btn download-btn">Download Resume</a>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <span>3+</span>
+                    <h3>Major Projects</h3>
+                </div>
+                <div class="box">
+                    <span>1</span>
+                    <h3>Certification</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+    <h2 class="heading">Technical Skills</h2>
+    <div class="skill-container">
+
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>React.js (Hooks, Components, Props, Routing)</li>
+                <li>Bootstrap, Tailwind CSS, Responsive Design</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Backend & Database</h3>
+            <ul>
+                <li>Node.js, Express.js</li>
+                <li>MongoDB (Mongoose), RESTful APIs</li>
+                <li>Authentication & JWT Implementation</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-wrench"></i> Tools & Others</h3>
+            <ul>
+                <li>Git / GitHub (Version Control)</li>
+                <li>Postman, VS Code, npm</li>
+                <li>Basic knowledge of Deployment (Render, Vercel, Netlify)</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="projects" id="projects">
+    <h2 class="heading">Featured Projects</h2>
+    <div class="project-container">
+     
+        <div class="project-box">
+            
+            <h3>E-Commerce Store</h3>
+            <p>A fully functional online shopping platform where users can browse products, add items to the cart, and checkout securely. 
+            I handled both frontend and backend — creating routes, API integrations, and database connections.</p>
+            <p class="tech-stack"><strong>Tech Used:</strong> React, Node.js, Express.js, MongoDB</p>
+            
+        </div>
+     
+        <div class="project-box">
+            
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive portfolio to showcase my web development skills, education, and experience. 
+            It includes smooth animations, a contact form, and an elegant layout built from scratch.</p>
+            <p class="tech-stack"><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+            
+        </div>
+
+        <div class="project-box">
+            
+            <h3>Blog Website</h3>
+            <p>A blogging platform that allows users to create, read, and delete posts. 
+            Designed with clean UI and integrated with a MongoDB database for storing articles securely.</p>
+            <p class="tech-stack"><strong>Tech Used:</strong> Node.js, Express.js, MongoDB, EJS</p>
+            
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In Touch</h2>
+        <form action="[Your Backend Endpoint/Form Service]" method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/muhammad-abd-ur-rahim-7154b9282?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="[Your GitHub URL]" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:abdurrahimfarooq358@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="text">
+            <p>&copy; 2025 Abd ur Rahim. All Rights Reserved.</p>
+            <p>Built for Rhombix Technologies Internship Task 1.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
